@@ -1,5 +1,5 @@
 {
-  "FolderOrderSettings": [
+  "FolderOrderSettings":[
     {"name":"Animation Curves","order":12,"path":"folders/Animation Curves.yy",},
     {"name":"Extensions","order":14,"path":"folders/Extensions.yy",},
     {"name":"Fonts","order":7,"path":"folders/Fonts.yy",},
@@ -16,19 +16,18 @@
     {"name":"Tile Sets","order":2,"path":"folders/Tile Sets.yy",},
     {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
   ],
-  "ResourceOrderSettings": [
+  "ResourceOrderSettings":[
     {"name":"End","order":6,"path":"objects/End/End.yy",},
-    {"name":"Sprite5","order":7,"path":"sprites/Sprite5/Sprite5.yy",},
-    {"name":"Sprite1","order":1,"path":"sprites/Sprite1/Sprite1.yy",},
     {"name":"Enemy","order":8,"path":"objects/Enemy/Enemy.yy",},
-    {"name":"Sprite4","order":5,"path":"sprites/Sprite4/Sprite4.yy",},
-    {"name":"Start","order":4,"path":"objects/Start/Start.yy",},
-    {"name":"Sprite7","order":11,"path":"sprites/Sprite7/Sprite7.yy",},
-    {"name":"Sprite3","order":3,"path":"sprites/Sprite3/Sprite3.yy",},
-    {"name":"Sprite2","order":1,"path":"sprites/Sprite2/Sprite2.yy",},
-    {"name":"findGoalPath","order":1,"path":"scripts/findGoalPath/findGoalPath.yy",},
-    {"name":"PathDrawHandler","order":2,"path":"objects/PathDrawHandler/PathDrawHandler.yy",},
-    {"name":"Sprite6","order":9,"path":"sprites/Sprite6/Sprite6.yy",},
     {"name":"IcePath","order":10,"path":"objects/IcePath/IcePath.yy",},
+    {"name":"PathDrawHandler","order":2,"path":"objects/PathDrawHandler/PathDrawHandler.yy",},
+    {"name":"Start","order":4,"path":"objects/Start/Start.yy",},
+    {"name":"findGoalPath","order":1,"path":"scripts/findGoalPath/findGoalPath.yy",},
+    {"name":"Sprite1","order":1,"path":"sprites/Sprite1/Sprite1.yy",},
+    {"name":"Sprite3","order":1,"path":"sprites/Sprite3/Sprite3.yy",},
+    {"name":"Sprite4","order":2,"path":"sprites/Sprite4/Sprite4.yy",},
+    {"name":"Sprite5","order":3,"path":"sprites/Sprite5/Sprite5.yy",},
+    {"name":"Sprite6","order":4,"path":"sprites/Sprite6/Sprite6.yy",},
+    {"name":"Sprite7","order":5,"path":"sprites/Sprite7/Sprite7.yy",},
   ],
 }

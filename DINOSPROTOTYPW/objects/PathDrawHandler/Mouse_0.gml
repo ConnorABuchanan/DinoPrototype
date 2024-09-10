@@ -6,7 +6,7 @@ pathy = mouse_y - mouse_y%32
 
 if(not instance_position(pathx, pathy, Path))
 {
-	if(not placeSpecialTile)
+	if(not place_ice_tile)
 	{
 		instance_create_layer(pathx, pathy, "Instances", Path)
 	}

@@ -1,6 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-placeSpecialTile = false
+place_ice_tile = false
 
 

@@ -1,6 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-placeSpecialTile = not placeSpecialTile
+place_ice_tile = not place_ice_tile
 
 
