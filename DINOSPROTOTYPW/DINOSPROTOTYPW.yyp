@@ -36,6 +36,7 @@
   "resources":[
     {"id":{"name":"End","path":"objects/End/End.yy",},},
     {"id":{"name":"Enemy","path":"objects/Enemy/Enemy.yy",},},
+    {"id":{"name":"FlyingEnemy","path":"objects/FlyingEnemy/FlyingEnemy.yy",},},
     {"id":{"name":"IcePath","path":"objects/IcePath/IcePath.yy",},},
     {"id":{"name":"Path","path":"objects/Path/Path.yy",},},
     {"id":{"name":"PathDrawHandler","path":"objects/PathDrawHandler/PathDrawHandler.yy",},},
@@ -50,6 +51,7 @@
     {"id":{"name":"Sprite5","path":"sprites/Sprite5/Sprite5.yy",},},
     {"id":{"name":"Sprite6","path":"sprites/Sprite6/Sprite6.yy",},},
     {"id":{"name":"Sprite7","path":"sprites/Sprite7/Sprite7.yy",},},
+    {"id":{"name":"Sprite8","path":"sprites/Sprite8/Sprite8.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",

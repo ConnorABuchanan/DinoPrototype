@@ -19,6 +19,7 @@
   "ResourceOrderSettings":[
     {"name":"End","order":6,"path":"objects/End/End.yy",},
     {"name":"Enemy","order":8,"path":"objects/Enemy/Enemy.yy",},
+    {"name":"FlyingEnemy","order":11,"path":"objects/FlyingEnemy/FlyingEnemy.yy",},
     {"name":"IcePath","order":10,"path":"objects/IcePath/IcePath.yy",},
     {"name":"PathDrawHandler","order":2,"path":"objects/PathDrawHandler/PathDrawHandler.yy",},
     {"name":"Start","order":4,"path":"objects/Start/Start.yy",},
@@ -29,5 +30,6 @@
     {"name":"Sprite5","order":3,"path":"sprites/Sprite5/Sprite5.yy",},
     {"name":"Sprite6","order":4,"path":"sprites/Sprite6/Sprite6.yy",},
     {"name":"Sprite7","order":5,"path":"sprites/Sprite7/Sprite7.yy",},
+    {"name":"Sprite8","order":6,"path":"sprites/Sprite8/Sprite8.yy",},
   ],
 }

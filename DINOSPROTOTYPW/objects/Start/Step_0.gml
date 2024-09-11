@@ -5,7 +5,7 @@ if(spawn_enemies)
 {
 	if(spawn_timer <= 0)
 	{
-		spawned = instance_create_layer(x+8, y+8, "Enemies", Enemy)
+		var spawned = instance_create_layer(x+8, y+8, "Enemies", enemy_to_spawn)
 		spawn_timer = seconds_between_spawns*60
 		spawned.next_path = next_path
 	}

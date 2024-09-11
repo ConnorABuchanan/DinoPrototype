@@ -8,3 +8,5 @@ spawn_enemies = false
 spawn_timer = 5
 
 seconds_between_spawns = 2
+
+enemy_to_spawn = FlyingEnemy
