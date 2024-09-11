@@ -22,6 +22,7 @@
     {"name":"FlyingEnemy","order":11,"path":"objects/FlyingEnemy/FlyingEnemy.yy",},
     {"name":"IcePath","order":10,"path":"objects/IcePath/IcePath.yy",},
     {"name":"PathDrawHandler","order":2,"path":"objects/PathDrawHandler/PathDrawHandler.yy",},
+    {"name":"PoisonPath","order":12,"path":"objects/PoisonPath/PoisonPath.yy",},
     {"name":"Start","order":4,"path":"objects/Start/Start.yy",},
     {"name":"findGoalPath","order":1,"path":"scripts/findGoalPath/findGoalPath.yy",},
     {"name":"Sprite1","order":1,"path":"sprites/Sprite1/Sprite1.yy",},
@@ -31,5 +32,6 @@
     {"name":"Sprite6","order":4,"path":"sprites/Sprite6/Sprite6.yy",},
     {"name":"Sprite7","order":5,"path":"sprites/Sprite7/Sprite7.yy",},
     {"name":"Sprite8","order":6,"path":"sprites/Sprite8/Sprite8.yy",},
+    {"name":"Sprite9","order":7,"path":"sprites/Sprite9/Sprite9.yy",},
   ],
 }

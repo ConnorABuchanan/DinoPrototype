@@ -5,4 +5,6 @@ move_speed = 1
 
 next_path = noone
 
+hp = 5
 
+damage_cooldown = 30

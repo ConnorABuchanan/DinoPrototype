@@ -6,14 +6,8 @@ var pathy = mouse_y - mouse_y%32
 
 if(not instance_position(pathx, pathy, Path))
 {
-	if(not place_ice_tile)
-	{
-		instance_create_layer(pathx, pathy, "Instances", Path)
-	}
-	else
-	{
-		instance_create_layer(pathx, pathy, "Instances", IcePath)
-	}
+	
+	instance_create_layer(pathx, pathy, "Instances", tile_to_place)
 }
 
 

@@ -3,7 +3,7 @@
 
 
 
-if(next_path != noone)
+if(next_path != noone and hp > 0)
 {
 	if(object_get_name(next_path.object_index) == "IcePath")
 	{
@@ -13,6 +13,12 @@ if(next_path != noone)
 	{
 		move_speed = 1
 	}
+	if(object_get_name(next_path.object_index) == "PoisonPath" and damage_cooldown <= 0)
+	{
+		hp -= 1
+		damage_cooldown = 50
+	}
+	damage_cooldown -= 1
 	if(x<next_path.x+8)
 	{
 		x += move_speed

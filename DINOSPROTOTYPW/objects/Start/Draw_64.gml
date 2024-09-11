@@ -1,4 +1,4 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-tile_to_place = Path
+draw_text(x, y, string(spawn_enemies))
