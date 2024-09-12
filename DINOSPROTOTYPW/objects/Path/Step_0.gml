@@ -1,5 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-draw_set_color(c_white)
-draw_text(x, y, string(spawn_enemies))
+if(should_be_destroyed and not instance_exists(Enemy))
+{
+	instance_destroy()
+}

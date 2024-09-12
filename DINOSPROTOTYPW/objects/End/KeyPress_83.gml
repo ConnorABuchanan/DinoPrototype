@@ -1,8 +1,14 @@
 /// @description Insert description here
 // You can write your code in this editor
 
+show_debug_message(instance_find(Start, 0).spawn_enemies)
 
-show_debug_message(self.neighbors)
+if(instance_find(Start, 0).spawn_enemies)
+{
+	instance_find(Start, 0).spawn_enemies = false
+	return
+}
+
 
 var e = findGoalPath(self)
 if(e==noone)
@@ -16,6 +22,13 @@ with(e)
 		spawn_enemies = false
 		return
 	}
+	var n = next_path
+	while(n != noone)
+	{
+		n.is_in_path = true
+		n = n.next_path
+	}
+	
 	spawn_enemies = true
 }
 show_debug_message(object_get_name(e.object_index))

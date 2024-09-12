@@ -11,3 +11,7 @@ for(i=0; i<3; i++)
 }
 
 next_path = noone
+
+is_in_path = false
+
+should_be_destroyed = false
