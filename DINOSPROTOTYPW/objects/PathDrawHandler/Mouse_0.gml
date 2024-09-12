@@ -10,4 +10,9 @@ if(not instance_position(pathx, pathy, Path))
 	instance_create_layer(pathx, pathy, "Instances", tile_to_place)
 }
 
+with(Path)
+{
+	getNeighbors(self)
+}
+
 

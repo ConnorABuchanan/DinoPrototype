@@ -9,7 +9,7 @@ if(instance_find(Start, 0).spawn_enemies)
 	return
 }
 
-
+getNeighbors(self)
 var e = findGoalPath(self)
 if(e==noone)
 {
