@@ -23,7 +23,7 @@ if(next_path != noone)
 		y -= move_speed
 	}
 
-	if(x >= next_path.x+8 and y >= next_path.y+8)
+	if(x == next_path.x+8 and y == next_path.y+8)
 	{
 		next_path = next_path.next_path
 	}
